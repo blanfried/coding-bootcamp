@@ -1,12 +1,12 @@
 
-    document.getElementById("button1").addEventListener("click", function(){
+    document.getElementById("button2").addEventListener("click", function(){
 
         document.getElementById("picture").style.height = "250px";
         document.getElementById("picture").style.width = "250px"
 
     });
 
-    document.getElementById("button2").addEventListener("click", function(){
+    document.getElementById("button1").addEventListener("click", function(){
 
         document.getElementById("picture").style.border = "25px solid";
         document.getElementById("picture").style.borderColor = "red";
