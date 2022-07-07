@@ -1,3 +1,14 @@
+:root {
+  /* CSS HEX */
+--light-cornflower-blue: #8ecae6ff;
+--blue-green: #219ebcff;
+--prussian-blue: #023047ff;
+--selective-yellow: #ffb703ff;
+--tangerine: #fb8500ff;
+--border-radius: 50px;
+}
+
+
 body {
   font-size: 16px;
   display: flex;
@@ -19,13 +30,13 @@ h2 {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: var(--prussian-blue);
+  color: var(--tangerine);
 }
 
 nav {
   display: flex;
-  background-color: #d8a47f;
+  background-color:var(--blue-green);
 }
 
 nav a {
@@ -49,14 +60,14 @@ footer {
   bottom: 0;
   padding: 20px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: var(--light-cornflower-blue);
+  color: var(--prussian-blue);
   margin-top: auto;
 }
 
 .products {
   flex: 1;
-  background-color: #fff;
+  background-color:var(--selective-yellow);
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -66,16 +77,16 @@ footer {
 .card {
   border-style: solid;
   border-width: 1px;
-  border-radius: 50px;
+  border-radius: var(--border-radius);
   padding: 10px;
   flex: 0 0 300px;
   transform: rotate(8deg);
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 10px 10px 5px var(--tangerine);
   margin: 20px;
 }
 
 .card > header {
-  border-radius: 50px 50px 0px 0px;
+  border-radius: var(--border-radius) var(--border-radius) 0px 0px;
   padding: 20px;
 }
 
