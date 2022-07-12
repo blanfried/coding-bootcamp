@@ -1,4 +1,6 @@
 // TODO: Declare variable 'shout' with the value 'Shout' so it's available to `justShout` and `shoutItAllOut` functions
+var shout = "shout";
+
 function justShout() {
   console.log(shout + ", " + shout);
   return;
@@ -14,12 +16,13 @@ shoutItAllOut();
 
 // TODO: Declare variable 'animal' with the value 'Tigers' so it is only available to the 'sayTigers' function
 function sayLions() {
-  var animal = "Lions"; 
+  let animal = "Lions"; 
   console.log(animal);
   return;
 }
 
 function sayTigers() {
+  let animal = "Tigers"
   console.log("and " + animal + " and "); 
   return;
 }
@@ -28,7 +31,7 @@ function sayTigers() {
 var bears = "Bears";
 
 function sayBears() {
-    var bears = "Pandas";
+    var bears = "Baers";
     console.log(bears + "! OH MY!");
     return;
 }
@@ -42,10 +45,13 @@ var sing = "Sing";
 
 function singAlong() {
   console.log(sing + ",");
-  var singASong = function () {
-    console.log(sing + " a Song.");
-  };
-  singASong();
+  return;
 }
+  function singASong() {
+    console.log(sing + " a Song.");
+    return;
+  };
 
-singAlong();
+  singAlong();
+  singASong();
+
