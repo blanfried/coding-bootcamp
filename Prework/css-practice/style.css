@@ -1,0 +1,61 @@
+h1 {
+    text-align: center
+};
+
+p { 
+    text-align: left; 
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.BIG {
+    font-size: xx-large;
+}
+
+.tiny {
+    font-size: xx-small;
+}
+
+.centered {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.fontchange {
+    font-family: fantasy;
+}
+
+.multiple {
+    color: rgb(255, 145, 0);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.styledFont {
+    color: greenyellow;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+#styledImage {
+    background-color: lightblue;
+border: 10px solid red;
+background: cross-fade();
+border-style: dotted;
+}
