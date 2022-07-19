@@ -13,6 +13,7 @@ function countdown() {
     //
     // YOUR CODE HERE
     //
+    setInterval (countdown(1000))
   });
 }
 

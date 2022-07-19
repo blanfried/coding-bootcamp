@@ -26,7 +26,6 @@ infoEl.appendChild(nameEl);
 body.appendChild(favoriteEl);
 favoriteEl.appendChild(listEl);
 // Append ordered list 
-
 listEl.appendChild(li1)
 listEl.appendChild(li2)
 listEl.appendChild(li3)
