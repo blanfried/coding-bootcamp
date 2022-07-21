@@ -6,12 +6,15 @@ var todoCountSpan = document.querySelector("#todo-count");
 var todos = [];
 
 // TODO: What is the purpose of this function?
+// this function add the previously typed todos onto the page
 function renderTodos() {
   // TODO: Describe the functionality of the following two lines of code.
+  // the first line is where the new todo goes, the second equates the amount of todos with how many todos have been added
   todoList.innerHTML = "";
   todoCountSpan.textContent = todos.length;
   
   // TODO: Describe the functionality of the following `for` loop.
+  // 
   for (var i = 0; i < todos.length; i++) {
     var todo = todos[i];
 

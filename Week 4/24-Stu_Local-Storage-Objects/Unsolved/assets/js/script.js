@@ -6,9 +6,19 @@ var signUpButton = document.querySelector("#sign-up");
 
 signUpButton.addEventListener("click", function(event) {
   event.preventDefault();
-  
-  // TODO: Create user object from submissio
 
-  // TODO: Set new submission to local storage 
+
+
+
+  // TODO: Create user object from submission
+  var Person = {
+    firstname: firstNameInput.value,
+    lastname: lastNameInput.value,
+    email: emailInput.value,
+    password: passwordInput.value,
+  };
   
+  // TODO: Set new submission to local storage 
+  localStorage.setItem("person", JSON.stringify(Person));
+  renderMessage();
 });
