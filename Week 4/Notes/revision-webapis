@@ -1,0 +1,14 @@
+//Web Api's
+
+window.document;
+
+document.getElementById("id");
+document.querySelector(".class");
+document.querySelectorAll(".class");
+document.body.children[0].children[1];
+
+var h1 = document.createElement("h1");
+h1.textContent = "Hello";
+document.body.appendChild(h1);
+
+h1.setAttribute("class", "header");
