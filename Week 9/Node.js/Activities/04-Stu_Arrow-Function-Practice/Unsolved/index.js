@@ -1,5 +1,5 @@
 // 1. funnyCase makes each letter in a string the opposite case as the one before
-var funnyCase = (string) => {
+var funnyCase = function(string) {
   var newString = "";
   for (var i = 0; i < string.length; i++) {
     if (i % 2 === 0) newString += string[i].toLowerCase();
@@ -14,7 +14,7 @@ console.log(funnyCase("You can't just do whatever you want all the time!"));
 // --------------------------------------------------------------------------
 
 // 2. Map lets you loop over an array and modify the elements inside
-var map = (arr, cb) => {
+var map = function(arr, cb) {
   var result = [];
   for (var index = 0; index < arr.length; index++) {
     var currentElement = arr[index];
@@ -35,7 +35,7 @@ console.log(doubled);
 // --------------------------------------------------------------------------
 
 // 3. filter lets you loop over an array and remove elements
-var filter = (arr, cb) => {
+var filter = function(arr, cb) {
   var result = [];
   for (var index = 0; index < arr.length; index++) {
     var currentElement = arr[index];
@@ -63,13 +63,13 @@ var netflixQueue = {
     "Eternal Sunshine of the Spotless Mind",
     "Fight Club",
   ],
-  watchMovie: () => {
+  watchMovie: function() {
     this.queue.pop();
   },
-  addMovie: (movie) => {
+  addMovie: function(movie) {
     this.queue.unshift(movie);
   },
-  printQueue: () => {
+  printQueue: function() {
     var list = "";
     for (var i = this.queue.length - 1; i >= 0; i--) {
       var currentMovie = this.queue[i];
