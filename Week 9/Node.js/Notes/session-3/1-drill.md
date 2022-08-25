@@ -1,0 +1,3 @@
+# Algorithms
+
+Open [algorithms](../algorithms/)
