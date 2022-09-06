@@ -37,4 +37,3 @@ practiceCoding
 .catch((err) => console.error('Promise rejected:' + err));
 // TODO: Chain a 'catch()' to log "Promise rejected: " and the error
 // practiceCoding(callback, errorCallback) 
-
