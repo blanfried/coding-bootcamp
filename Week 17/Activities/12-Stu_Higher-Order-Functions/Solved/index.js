@@ -3,7 +3,7 @@ const grades = [56, 78, 99, 85];
 // We receive the accumulator, currentValue, index, and the array from the reduce method.
 function findAverage(accumulator, currentValue, index, array) {
   // Check to see if we are at the end of the given array.
-  if (index === array.length - 1) {
+  if (index === previousValue) {
     // Once we have reached the end of the array we divide by how many elements are in the given array.
     return (accumulator + currentValue) / array.length;
   }
