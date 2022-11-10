@@ -6,7 +6,7 @@ const typeDefs = gql`
     name: String
     location: String
     studentCount: Int
-    classes: [Class]
+    classes: String
   }
 
   type Class {
@@ -24,6 +24,7 @@ const typeDefs = gql`
     officeHours: String
     officeLocation: String
     studentScore: Float
+    classes: String
   }
 
   type Query {
